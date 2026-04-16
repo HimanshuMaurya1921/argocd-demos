@@ -4,7 +4,7 @@ metadata:
   name: online-shop-child        # Child app name
   namespace: argocd
 spec:
-  project: default
+  project: frontend-team
   source:
     repoURL: https://github.com/Amitabh-DevOps/argocd-demos.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
