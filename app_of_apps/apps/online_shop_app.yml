@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/HimanshuMaurya1921/argocd-demos.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
-    path: declarative_approach/online_shop  # path of Online Shop app in `argocd-demos` repo
+    path: declarative_approach-2/online_shop  # path of Online Shop app in `argocd-demos` repo
   destination:
     server: https://kubernetes.default.svc # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: frontend
